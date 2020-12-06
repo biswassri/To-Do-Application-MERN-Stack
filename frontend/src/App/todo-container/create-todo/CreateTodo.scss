@@ -1,0 +1,37 @@
+table {
+  border: 1px solid black;
+  width: 100%;
+ 
+}
+th, td {
+    padding: 15px;
+    text-align: left;
+     border-bottom: 1px solid rgb(255, 251, 251);
+  }
+  input {  
+    width: 62%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    color: rgb(15, 93, 129) ;
+    
+  }
+  
+  .form-group{
+      display: inline-block;
+  }
+
+.btn-primary{
+     align-content: center;
+      width: 120px;
+      height: 35px;
+      padding: 1px 5px;
+      text-align: center;
+      border-radius: 10px;
+  }
+  input[type=text]:focus {
+    border: 1.5px solid rgb(49, 81, 124);
+  }
+  .btn-primary:hover{
+    border: 1.5px solid rgb(146, 145, 145);
+  }
